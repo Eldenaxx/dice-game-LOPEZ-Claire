@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        
+        <title>Dice Game</title>
+    </head>
+
+    <body>
+        <div class="big-box">
+            <div class="player1">
+                <div class="Players-Name" id="name-1">Player 1</div>
+                <div class="Players-Score" id="score-1">0</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="currentPlayer-1">0</div>
+                </div>
+            </div>
+            
+            <div class="player2">
+                <div class="Players-Name" id="name-2">Player 2</div>
+                <div class="Players-Score" id="score-2">0</div>
+                <div class="player-current-box">
+                    <div class="player-current-label">Current</div>
+                    <div class="player-current-score" id="currentPlayer-2">0</div>
+                </div>
+            </div>
+            
+            <button class="new">New game</button>
+            <button class="roll">Roll dice</button>
+            <button class="hold">Hold</button>
+            
+            <input type="text" placeholder="Final score" class="final-score">
+            
+            <img src="dice5.png" alt="Dice" class="dice" id="dice-1">
+           
+        </div>
+        
+        <script src="js.js"></script>
+        
+    </body>
+</html>
